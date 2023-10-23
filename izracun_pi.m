@@ -115,4 +115,8 @@ function [] = graf()
     hold on
     plot(T2,T3,"k",'LineWidth', 1)
     hold on
+    title('Naključno generirane točke na krožnici z lokom');
+    xlabel('X-os');
+    ylabel('Y-os');
+    legend('Krožnica', 'Povprečje odklona', 'kvadrat', 'Zunaj krožnice', 'Znotraj krožnice');
 end
