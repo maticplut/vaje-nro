@@ -89,15 +89,17 @@ end
 
 function [] = graf()
     % Izris korznice
-    theta = linspace(0, 2 * pi, 1000);
-
-    x2 = cos(theta);
-    y2 = sin(theta);
+    lok = @(x) sqrt(1-x.^2);
+    
+    x_lok = linspace(-1, 1, 400);
 
     subplot(1, 2, 1)
-    plot(x2, y2, 'g', 'LineWidth', 1);
-    axis equal;
+    plot(x_lok, lok(x_lok), 'g', 'LineWidth', 1);
     hold on
+    plot(x_lok, -lok(x_lok), 'g', 'LineWidth', 1);
+    hold on
+    axis equal
+
 
     %Izris kvadrata
     T0=[1,1];
