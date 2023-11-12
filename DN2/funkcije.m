@@ -16,7 +16,7 @@ i++;
 ];
 
 
-izracunPi[not_, zun_] := Module[{priblizekPi, napaka},
+izracunPi[{not_, zun_}] := Module[{priblizekPi, napaka},
    priblizekPi = N[(4 Length[not])/(Length[not] + Length[zun])];
    napaka = Abs[priblizekPi - Pi];
    {priblizekPi, napaka}
@@ -24,7 +24,6 @@ izracunPi[not_, zun_] := Module[{priblizekPi, napaka},
 
 calcPi[] := Module[{i, skPrib = {}, skNpk = {}},
    i = 500;
-   x = Range[500, 20000, 500];
    While[i <= 20000, Module[{prib, npk},
      {prib, npk} = izracunPi[preveri[tocke[i]]];
      skPrib = Append[skPrib, prib];
