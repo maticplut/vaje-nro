@@ -1,0 +1,4 @@
+﻿  DN4.cpp
+C:\Šula\Napredna orodja\DN4\DN4\DN4.cpp(27,19): warning C4101: 'y': unreferenced local variable
+C:\Šula\Napredna orodja\DN4\DN4\DN4.cpp(27,16): warning C4101: 'x': unreferenced local variable
+  DN4.vcxproj -> C:\Šula\Napredna orodja\DN4\x64\Debug\DN4.exe
