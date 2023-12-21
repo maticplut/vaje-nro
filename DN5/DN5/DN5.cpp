@@ -122,7 +122,7 @@ int main() {
 
     auto start_time = std::chrono::high_resolution_clock::now();
 
-    omp_set_num_threads(64);
+    omp_set_num_threads(20);
 
     #pragma omp parallel for
 
