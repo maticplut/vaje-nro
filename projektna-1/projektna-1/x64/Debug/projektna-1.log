@@ -1,0 +1,50 @@
+﻿  projektna-1.cpp
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(42,25): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(42,25): warning C4244:         with
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(42,25): warning C4244:         [
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(42,25): warning C4244:             _Ty=int
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(42,25): warning C4244:         ]
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(70,25): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(70,25): warning C4244:         with
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(70,25): warning C4244:         [
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(70,25): warning C4244:             _Ty=int
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(70,25): warning C4244:         ]
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(98,25): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(98,25): warning C4244:         with
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(98,25): warning C4244:         [
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(98,25): warning C4244:             _Ty=int
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(98,25): warning C4244:         ]
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(170,37): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(170,37): warning C4244:         with
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(170,37): warning C4244:         [
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(170,37): warning C4244:             _Ty=int
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(170,37): warning C4244:         ]
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(215,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(216,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(244,38): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(244,38): warning C4244:         with
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(244,38): warning C4244:         [
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(244,38): warning C4244:             _Ty=double
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(244,38): warning C4244:         ]
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(427,22): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(427,22): warning C4244:         with
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(427,22): warning C4244:         [
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(427,22): warning C4244:             _Ty=double
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(427,22): warning C4244:         ]
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(428,22): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(428,22): warning C4244:         with
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(428,22): warning C4244:         [
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(428,22): warning C4244:             _Ty=double
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(428,22): warning C4244:         ]
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(429,22): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(429,22): warning C4244:         with
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(429,22): warning C4244:         [
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(429,22): warning C4244:             _Ty=double
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(429,22): warning C4244:         ]
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(430,22): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(430,22): warning C4244:         with
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(430,22): warning C4244:         [
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(430,22): warning C4244:             _Ty=double
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(430,22): warning C4244:         ]
+C:\Šula\vaje-nro\projektna-1\projektna-1\projektna-1.cpp(452,18): warning C4566: character represented by universal-character-name '\u010C' cannot be represented in the current code page (1252)
+  projektna-1.vcxproj -> C:\Šula\vaje-nro\projektna-1\x64\Debug\projektna-1.exe
