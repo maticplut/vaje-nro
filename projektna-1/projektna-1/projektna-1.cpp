@@ -378,15 +378,15 @@ int main()
     }
 
     //Iterativno reševanje sistema enačb
-    int iter = 2000;
+    int iter = 1000;
+    auto start_time_Gauss = std::chrono::high_resolution_clock::now();
 
-    //omp_set_num_threads(20);
+    omp_set_num_threads(20);
 
-    #pragma omp parallel for
-    
     for (int iitt = 0; iitt < iter; iitt++)
     {
         //Gauss-Seidel metoda
+        #pragma omp parallel for
 
         for (int jj = 0; jj < size; jj++)
         {
@@ -406,7 +406,7 @@ int main()
         }
 
     }
-
+    auto end_time_Gauss = std::chrono::high_resolution_clock::now();
 
     std::ofstream fileID("rezultat_vtk.vtk");
 
@@ -449,6 +449,8 @@ int main()
 
     auto end_time = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> time_duration = end_time - start_time;
-    std::cout << "Čas izvajanja programa " << time_duration.count() << " seconds" << std::endl;
+    std::chrono::duration<double> time_duration_Gauss = end_time_Gauss - start_time_Gauss;
+    std::cout << "Cas izvajanja programa " << time_duration.count() << " seconds" << std::endl;
+    std::cout << "Cas reševanja sistema enacb po Gauss-Seidel: " << time_duration_Gauss.count() << " seconds" << std::endl;
 
 }
